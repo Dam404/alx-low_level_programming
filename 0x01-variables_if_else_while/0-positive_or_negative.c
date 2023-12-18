@@ -4,7 +4,6 @@
 /**
  *main - entry of my code
  *
- *@rand: gives random number whenever compiled
  *Return: (0)
  */
 int main(void)
