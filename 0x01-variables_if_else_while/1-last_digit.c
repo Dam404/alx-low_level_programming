@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+/**
+ *main - Entry of my code
+ *
+ *Return: (0)ALWAYS SUCCESSFUL
+ */
 int main(void)
 {
 int n;
