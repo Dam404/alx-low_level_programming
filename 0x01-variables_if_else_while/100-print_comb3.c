@@ -13,8 +13,8 @@ for (sam = 0; sam < 9; sam++)
 for (bro = sam + 1; bro < 10; bro++)
 {
 putchar(sam + '0');
-putchar(bro +'0');
-if(sam == 8 && bro == 9)
+putchar(bro + '0');
+if (sam == 8 && bro == 9)
 continue;
 putchar(',');
 putchar(' ');
