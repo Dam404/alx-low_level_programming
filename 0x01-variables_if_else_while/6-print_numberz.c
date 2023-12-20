@@ -1,8 +1,10 @@
 #include <stdio.h>
-/**main - This is my starting point of my code
+/** 
+ *main - This is my starting point of my code
  *
-*Return: (0)
-*/
+ *Return: (0)
+ */
+
 int main(void)
 {
 int not_char;
