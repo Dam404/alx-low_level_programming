@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  *main - This is my starting point of my code
  *
  *Return: (0)
