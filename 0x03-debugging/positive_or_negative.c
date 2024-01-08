@@ -11,10 +11,6 @@ if (i == 98)
 {
 printf("%d is positive", i);
 }
-else if (i < 98)
-{
-printf("%d is negative", i);
-}
 else
 {
 printf("%d is zero", i);
