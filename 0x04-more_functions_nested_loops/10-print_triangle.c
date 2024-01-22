@@ -19,7 +19,7 @@ else
 
 int row;
 int column;
-int CHAR;
+int sym;
 /*iterate through each row*/
 for (row = 0; row < size; row++)
 {
@@ -29,10 +29,10 @@ for (column = 0; column < size - row - 1; column++)
 _putchar(' ');
 }
 /*print '#' characters*/
-for (CHAR = 0; CHAR <= row; CHAR++)
+for (sym = 0; sym <= row; sym++)
 
 {
-  _putchar('#');
+_putchar('#');
 }
 
 _putchar('\n');
