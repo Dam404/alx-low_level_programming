@@ -22,7 +22,7 @@ str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}')
 capital = 1;
 }
 
- else if (capital && str[i] >= 'a' && str[i] <= 'z')
+else if ((capital && str[i] >= 'a') && (str[i] <= 'z'))
 {
 str[i] = str[i] - 32;
 capital = 0;
