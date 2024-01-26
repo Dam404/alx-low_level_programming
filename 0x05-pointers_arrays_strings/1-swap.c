@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+*swap_int - Swaps the values of two integers.
+*@a: pointer to the first integer
+*@b: Pointer to the second integer
+*/
+void swap_int(int *a, int *b)
+{
+int temp_v;
+
+temp_v = *a;/*store the value of 'a' in the temporary var*/
+
+*a = *b;/*Assign the value of 'b' to 'a'*/
+
+*b = temp_v;/*Assign the value of 'temp_v' to 'b'*/
+}
