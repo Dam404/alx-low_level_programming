@@ -17,7 +17,7 @@ if (*pointer >= 'a' && *pointer <= 'z')
 {
 *pointer = *pointer - 32;
 }
-pointer++; 
+pointer++;
 }
 
 return (str);
