@@ -6,6 +6,5 @@
 */
 void reset_to_98(int *n)
 {
-*n = 98; /*Update the value at the memory address pointed to
-by 'n' to 98*/
+*n = 98;
 }
