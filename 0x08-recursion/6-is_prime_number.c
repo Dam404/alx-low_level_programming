@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* is_prime_recursive - Helper function to check if a number is prime recursively
+* is_prime_recursive - Helper function to check
+*                    if a number is prime recursively
 * @n: The number to check for primality
 * @divisor: The current divisor being checked
 *
