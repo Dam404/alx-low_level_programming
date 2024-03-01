@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
-*fizz-buzz- This program prints the numbers from 1 to 100,
-*follwed by a new line.
+*fizz_buzz- This program prints the numbers from 1 to 100,
+*followed by a new line.
 *But for the multiples of three it prints "Fizz" instead
-*of the number and for the multiple of five prints "Buzz"
+*of the number and for the multiple of five it prints "Buzz"
 *For numbers which are multiples are both three and five
-*prints "FizzBuzz".
+* it prints "FizzBuzz".
 *
 *Return: 0
 */
