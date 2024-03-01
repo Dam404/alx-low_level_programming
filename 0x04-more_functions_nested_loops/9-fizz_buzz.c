@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*fizz_buzz- This program prints the numbers from 1 to 100,
+*main - This program prints the numbers from 1 to 100,
 *followed by a new line.
 *But for the multiples of three it prints "Fizz" instead
 *of the number and for the multiple of five it prints "Buzz"
@@ -25,13 +25,17 @@ printf("Fizz ");
 }
 else if (num % 5 == 0)
 {
-printf("Buzz ");
+printf("Buzz");
+if (num >= 100)
+break;
+else
+printf(" ");
 }
 else
 {
 printf("%d ", num);
 }
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
